@@ -1,0 +1,23 @@
+{
+  "name": "discord-rpc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hapis1703/RPC-Online-Forever#readme",
+  "bugs": {
+    "url": "https://github.com/hapis1703/RPC-Online-Forever/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hapis1703/RPC-Online-Forever.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}
