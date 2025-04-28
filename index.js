@@ -1,6 +1,7 @@
 const clientId = "1366339996759363614";
 const discordRPC = require("discord-rpc");
 const RPC = new discordRPC.Client({ transport: "ipc" });
+const keep_alive = require("./keep_alive.js");
 
 discordRPC.register(clientId);
 
